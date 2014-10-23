@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="com.pocketgator.game.WreckThatShip.ui_2" size="1428,689" id="com.pocketgator.game.WreckThatShip.ui" metadata="uml2-1.0" initialized="true" tag="1000" key="32303037303533312D3130303020577265636B54686174536869702F4672616E6B">
+  <children xsi:type="editmodel:ClassEditModel" name="BaseWreckThatShipGameActivity" location="774,50" size="254,139" id="com.pocketgator.game.WreckThatShip.ui/BaseWreckThatShipGameActivity">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="130,90">
+      <children xsi:type="editmodel:MethodEditModel" name="onLoadComplete" id="com.pocketgator.game.WreckThatShip.ui/BaseWreckThatShipGameActivity#onLoadComplete()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onLoadEngine" id="com.pocketgator.game.WreckThatShip.ui/BaseWreckThatShipGameActivity#onLoadEngine()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onLoadResources" id="com.pocketgator.game.WreckThatShip.ui/BaseWreckThatShipGameActivity#onLoadResources()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onLoadScene" id="com.pocketgator.game.WreckThatShip.ui/BaseWreckThatShipGameActivity#onLoadScene()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onSceneTouchEvent" id="com.pocketgator.game.WreckThatShip.ui/BaseWreckThatShipGameActivity#onSceneTouchEvent(Lorg.anddev.andengine.entity.scene.Scene;Lorg.anddev.andengine.input.touch.TouchEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="MainMenuActivity" location="774,199" size="154,193" id="com.pocketgator.game.WreckThatShip.ui/MainMenuActivity">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="119,144">
+      <children xsi:type="editmodel:MethodEditModel" name="onDestroy" id="com.pocketgator.game.WreckThatShip.ui/MainMenuActivity#onDestroy()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onFinish" id="com.pocketgator.game.WreckThatShip.ui/MainMenuActivity#onFinish()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onGameResumed" id="com.pocketgator.game.WreckThatShip.ui/MainMenuActivity#onGameResumed()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onLoadComplete" id="com.pocketgator.game.WreckThatShip.ui/MainMenuActivity#onLoadComplete()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onLoadEngine" id="com.pocketgator.game.WreckThatShip.ui/MainMenuActivity#onLoadEngine()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onLoadResources" id="com.pocketgator.game.WreckThatShip.ui/MainMenuActivity#onLoadResources()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onLoadScene" id="com.pocketgator.game.WreckThatShip.ui/MainMenuActivity#onLoadScene()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onResume" id="com.pocketgator.game.WreckThatShip.ui/MainMenuActivity#onResume()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="SplashActivity" location="50,424" size="131,29" id="com.pocketgator.game.WreckThatShip.ui/SplashActivity">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TrailLine" location="375,405" size="124,103" id="com.pocketgator.game.WreckThatShip.ui/TrailLine">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,54">
+      <children xsi:type="editmodel:MethodEditModel" name="TrailLine" id="com.pocketgator.game.WreckThatShip.ui/TrailLine#TrailLine(Lorg.anddev.andengine.entity.scene.Scene;Lorg.anddev.andengine.opengl.texture.region.TextureRegion;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cleanTrailLine" id="com.pocketgator.game.WreckThatShip.ui/TrailLine#cleanTrailLine()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createTrailLine" id="com.pocketgator.game.WreckThatShip.ui/TrailLine#createTrailLine(FF)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="LevelScene" location="363,199" size="183,175" id="com.pocketgator.game.WreckThatShip.ui/LevelScene">
+    <children xsi:type="editmodel:CompartmentEditModel" size="160,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="cataSwing" id="com.pocketgator.game.WreckThatShip.ui/LevelScene#cataSwing"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="factory" id="com.pocketgator.game.WreckThatShip.ui/LevelScene#factory"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="99,90">
+      <children xsi:type="editmodel:MethodEditModel" name="LevelScene" id="com.pocketgator.game.WreckThatShip.ui/LevelScene#LevelScene(Lorg.anddev.andengine.engine.Engine;Ljava.lang.String;ILorg.anddev.andengine.ui.activity.BaseGameActivity;Lorg.anddev.andengine.engine.camera.ZoomCamera;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="chaseFireball" id="com.pocketgator.game.WreckThatShip.ui/LevelScene#chaseFireball()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createUI" id="com.pocketgator.game.WreckThatShip.ui/LevelScene#createUI()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initResources" id="com.pocketgator.game.WreckThatShip.ui/LevelScene#initResources()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="shootThatShip" id="com.pocketgator.game.WreckThatShip.ui/LevelScene#shootThatShip(FI)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="com.pocketgator.game.WreckThatShip.ui/GUIScene&lt;-com.pocketgator.game.WreckThatShip.ui/LevelScene" source="//@children.4" target="//@children.8/@sourceConnections.0" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="91,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="MainMenuScene" location="576,199" size="148,103" id="com.pocketgator.game.WreckThatShip.ui/MainMenuScene">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,54">
+      <children xsi:type="editmodel:MethodEditModel" name="MainMenuScene" id="com.pocketgator.game.WreckThatShip.ui/MainMenuScene#MainMenuScene(Ljava.lang.String;ILorg.anddev.andengine.ui.activity.BaseGameActivity;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createUI" id="com.pocketgator.game.WreckThatShip.ui/MainMenuScene#createUI()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initResources" id="com.pocketgator.game.WreckThatShip.ui/MainMenuScene#initResources()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="com.pocketgator.game.WreckThatShip.ui/GUIScene&lt;-com.pocketgator.game.WreckThatShip.ui/MainMenuScene" source="//@children.5" target="//@children.8/@sourceConnections.0" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="74,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.8/@sourceConnections.0" name="GUIScene" location="310,50" size="119,99" id="com.pocketgator.game.WreckThatShip.ui/GUIScene">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,36">
+      <children xsi:type="editmodel:MethodEditModel" name="createUI" id="com.pocketgator.game.WreckThatShip.ui/GUIScene#createUI()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initResources" id="com.pocketgator.game.WreckThatShip.ui/GUIScene#initResources()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="LoadingScene" location="199,199" size="134,103" id="com.pocketgator.game.WreckThatShip.ui/LoadingScene">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="99,54">
+      <children xsi:type="editmodel:MethodEditModel" name="LoadingScene" id="com.pocketgator.game.WreckThatShip.ui/LoadingScene#LoadingScene(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createUI" id="com.pocketgator.game.WreckThatShip.ui/LoadingScene#createUI()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initResources" id="com.pocketgator.game.WreckThatShip.ui/LoadingScene#initResources()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="com.pocketgator.game.WreckThatShip.ui/GUIScene&lt;-com.pocketgator.game.WreckThatShip.ui/LoadingScene" source="//@children.7" target="//@children.8/@sourceConnections.0" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="67,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Control" location="50,199" size="119,175" id="com.pocketgator.game.WreckThatShip.ui/Control">
+    <children xsi:type="editmodel:CompartmentEditModel" size="72,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="angle" id="com.pocketgator.game.WreckThatShip.ui/Control#angle"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="power" id="com.pocketgator.game.WreckThatShip.ui/Control#power"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,90">
+      <children xsi:type="editmodel:MethodEditModel" name="Control" id="com.pocketgator.game.WreckThatShip.ui/Control#Control(Lorg.anddev.andengine.ui.activity.BaseGameActivity;Lcom.pocketgator.game.WreckThatShip.ui.LevelScene;Lorg.anddev.andengine.entity.scene.Scene;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createUI" id="com.pocketgator.game.WreckThatShip.ui/Control#createUI()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAngle" id="com.pocketgator.game.WreckThatShip.ui/Control#getAngle()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPower" id="com.pocketgator.game.WreckThatShip.ui/Control#getPower()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initResources" id="com.pocketgator.game.WreckThatShip.ui/Control#initResources()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.7/@sourceConnections.0 //@children.4/@sourceConnections.0 //@children.5/@sourceConnections.0" autoLocated="true" id="com.pocketgator.game.WreckThatShip.ui/GUIScene&lt;-com.pocketgator.game.WreckThatShip.ui/Control" source="//@children.8" target="//@children.6" targetEnd="//@children.8/@sourceConnections.0/@children.1" sourceEnd="//@children.8/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="59,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="59,99" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=3;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
